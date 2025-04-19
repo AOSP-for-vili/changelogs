@@ -1,11 +1,11 @@
-# Changelog - April 14, 2025:
+# Changelog - April 19, 2025
+## Source:
+- Merged April security patch
+
 ## Device:
-- Updated device blobs and firmware from vili V816.0.11.0.UKDMIXM
-- Updated common blobs from haydn V816.0.18.0.UKKMIXM
-- Added support for Spatial Audio on supported content
-- Added Qcom audio effects from Oneplus 9R
-- Added media codecs support for apps that utilize them (ex: Apple music)
-- Improved handling of Dolby profiles
+- Fixed muted audio (in some apps) when you switched to speaker while on a VOIP call [Credits to @kknixx for making the fix]
+- Added torch light control
 
 ## Kernel:
-* KSU-Next and susfs are supported by default
+###### KSU-Next and susfs are supported by default
+- Improved memory management
